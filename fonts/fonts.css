@@ -1,0 +1,32 @@
+@font-face {
+  font-family:"MohaveBold";
+  src: url("mohave/Mohave-Bold.otf");
+}
+@font-face {
+  font-family:"MohaveBoldItalic";
+  src: url("mohave/Mohave-BoldItalic.otf");
+}
+@font-face {
+  font-family:"MohaveItalic";
+  src: url("mohave/Mohave-Italic.otf");
+}
+@font-face {
+  font-family:"MohaveLight";
+  src: url("mohave/Mohave-Light.otf");
+}
+@font-face {
+  font-family:"MohaveLightItalic";
+  src: url("mohave/Mohave-LightItalic.otf");
+}
+@font-face {
+  font-family:"MohaveMedium";
+  src: url("mohave/Mohave-Medium.otf");
+}
+@font-face {
+  font-family:"MohaveMediumItalic";
+  src: url("mohave/Mohave-MediumItalic.otf");
+}
+@font-face {
+  font-family:"MohaveRegular";
+  src: url("mohave/Mohave-Regular.otf");
+}
