@@ -1,0 +1,30 @@
+@import "../fonts/fonts.css";
+
+.categories {
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 5px 5px 5px 5px;
+  font-size: 48px;
+}
+
+.categories legend {
+  font-family: MohaveLight, serif;
+}
+
+.completed-proj-image {
+  width: 550px;
+  height: 250px;
+  border-color: black;
+  border-radius: 60px;
+  padding-right: 30px;
+}
+
+#first-item {
+  padding-left: 45px;
+}
+
+.completed-proj:hover {
+  transition-duration: 1s;
+  opacity: 0.2;
+}
