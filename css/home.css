@@ -1,26 +1,5 @@
 @import url("fonts.css");
 
-/* Menubar Styling */
-.menubar-container {
-  position: relative;
-  text-align: right;
-  color: white;
-}
-
-.menubar-item {
-  padding: 50px;
-  color: white;
-  text-decoration: none;
-  font-family: OswaldRegular;
-  background-color: black;
-  font-size: 24px;
-}
-
-.menubar-item:hover {
-  background-color: blue;
-}
-/* Menubar Styling */
-
 /* The Image And Name Styling */
 #home-container p {
   color: white;
@@ -54,7 +33,7 @@
   width: 100px;
 }
 
-.home-image-text pre {
+.home-image-text-name {
   font-size: 120px;
   display: inline;
   font-family: OswaldBold;
