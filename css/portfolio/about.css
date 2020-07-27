@@ -1,0 +1,19 @@
+@import url("../fonts.css");
+
+#about-container {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: white;
+}
+
+#about-container p {
+  color: white;
+  font-family: OswaldRegular;
+}
+
+.about-title {
+  font-size: 32px;
+  text-align: center;
+}
