@@ -33,9 +33,14 @@
   width: 100px;
 }
 
+.home-image-text a {
+  text-decoration: none;
+}
+
 .home-image-text-name {
   font-size: 120px;
   display: inline;
   font-family: OswaldBold;
+  color: white;
 }
 /* The Image And Name Styling */
