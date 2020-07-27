@@ -1,0 +1,35 @@
+@import url("../fonts.css");
+
+#projects-container {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: white;
+}
+
+#projects-container p {
+  color: white;
+  font-family: OswaldRegular;
+}
+
+.projects-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* For testing reasons */
+.projects-item {
+  margin-left: 20px;
+  border-style: solid;
+  border-color: white;
+  width: 325px;
+  height: 325px;
+  border-radius: 50px;
+}
