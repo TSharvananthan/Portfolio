@@ -1,0 +1,10 @@
+html {
+  background-color: black;
+}
+
+.thanu-image {
+  position: fixed;
+  width: 99%;
+  height: auto;
+  filter: brightness(0.30);
+}
