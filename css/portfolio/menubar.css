@@ -1,0 +1,25 @@
+@import url("../fonts.css");
+
+/* Menubar Styling */
+.menubar-container {
+  position: relative;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
+.menubar-item {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: OswaldRegular;
+  font-size: 26px;
+}
+
+.menubar-item:hover {
+  color: blue;
+}
+/* Menubar Styling */
