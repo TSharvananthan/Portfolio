@@ -1,0 +1,46 @@
+@import url("../fonts.css");
+
+/* The Image And Name Styling */
+#home-container p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-image {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: brightness(0.30);
+}
+
+.home-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home-image-text {
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+.home-image-text a {
+  text-decoration: none;
+}
+
+.home-image-text-name {
+  font-size: 120px;
+  display: inline;
+  font-family: OswaldBold;
+  color: white;
+}
+/* The Image And Name Styling */
