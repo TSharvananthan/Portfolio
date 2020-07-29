@@ -4,8 +4,6 @@
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  border-style: solid;
-  border-color: white;
 }
 
 #projects-container p {
@@ -14,22 +12,28 @@
 }
 
 .projects-title {
-  font-size: 32px;
-  text-align: center;
+  font-size: 48px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
 }
 
-.projects {
+.row {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 /* For testing reasons */
 .projects-item {
-  margin-left: 20px;
   border-style: solid;
   border-color: white;
   width: 325px;
   height: 325px;
   border-radius: 50px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
