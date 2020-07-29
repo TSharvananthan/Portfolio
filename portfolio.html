@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="css/portfolio/about.css">
     <link rel="stylesheet" href="css/portfolio/projects.css">
     <link rel="stylesheet" href="css/portfolio/resume.css">
+    <link rel="stylesheet" href="css/portfolio/contact.css">
 
     <script src="js/goToPage.js"></script>
   </head>
   <body>
     <div class="menubar-container">
-      <a href="#home-container" class="menubar-item"> Home </a>
+      <a href="assets/fonts/game/game.html" class="menubar-item"> Home </a>
       <a href="#about-container" class="menubar-item"> About </a>
       <a href="#projects-container" class="menubar-item"> Projects </a>
-      <a href="#resume-container" class="menubar-item"> Resume </a>
       <a href="#contact-container" class="menubar-item"> Contact </a>
     </div>
 
@@ -62,7 +62,19 @@
     </div>
 
     <div id="contact-container">
+      <p class="contact-title"> Contact </p>
+      <form action="index.html" method="post" class="contact-form">
+        <label for="name"> Name: </label>
+        <input type="text" name="name">
 
+        <label for="email"> Email: </label>
+        <input type="text" name="email">
+
+        <label for="description"> Message: </label>
+        <input type="text" name="description">
+
+        <input type="submit" name="submit" value="Submit">
+      </form>
     </div>
   </body>
 </html>

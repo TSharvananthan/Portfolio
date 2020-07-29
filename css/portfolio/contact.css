@@ -1,0 +1,39 @@
+@import url("../fonts.css");
+
+#contact-container {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-title {
+  color: white;
+  font-family: OswaldRegular;
+  font-size: 48px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact-form input {
+  font-family: OswaldRegular;
+}
+
+.contact-form input[type=text]:focus {
+  background-color: lightblue;
+}
+
+.contact-form label {
+  color: white;
+  font-family: OswaldRegular;
+  font-size: 24px;
+}

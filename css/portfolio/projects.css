@@ -2,16 +2,13 @@
 
 #projects-container {
   margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#projects-container p {
-  color: white;
-  font-family: OswaldRegular;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .projects-title {
+  color: white;
+  font-family: OswaldRegular;
   font-size: 48px;
   margin-left: 10px;
   margin-right: 10px;
